@@ -4,7 +4,9 @@ Practice leet-code and algo-monster
 # Every Day practice from leet code
 1. String 
 2. Integer
-       
+
+# Algo Monster problems
+1. Easy
 
 # Day 1 - Same Direction
 1. Remove Duplicates - 
