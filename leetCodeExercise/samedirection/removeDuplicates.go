@@ -1,4 +1,4 @@
-package samedirection
+package leetcode
 
 func RemoveDuplicates(nums []int) int {
 

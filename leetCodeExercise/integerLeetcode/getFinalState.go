@@ -1,4 +1,4 @@
-package integerleetcode
+package leetcode
 
 // You are given an integer array nums, an integer k, and an integer multiplier.
 // You need to perform k operations on nums. In each operation:

@@ -1,0 +1,19 @@
+// Context is immutable
+//context package provides function to derive neww context values from existing ones to add cancellation bahaviour
+
+// 1.	context.WithCancel() - is used to create a cancellation
+//            cancel() - is used to close the done channel
+//            On receving the close signal, goroutine is suppose to abandon its operation and return.
+
+//2.    context.WithDeadline() - is used to set deadline to an operation
+//            Creates a new context whose done channel gets clised when machine's clock advances past the given deadline
+//            ctx.Deadline() -  can used to know if a deadline is associated with the context
+
+//3.    context.WithTimeoute() - used to set timeout to an operation
+//             creates a new context whose done channel is closed after the given timeout duration.
+
+//context pacakge can used as data bag to carry request scoped dataa
+
+//4.    context.WithValue() - used to associate request- scoped data with a context
+//				ctx.Values() - is used to extract the value given a key from the context
+

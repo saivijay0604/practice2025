@@ -2,13 +2,13 @@ package main
 
 import (
 	"fmt"
-	algomonster "leetcode/practice2025/algoMonster"
 	routine "leetcode/practice2025/concurrencyExercise/goRoutine"
 	mutexexe "leetcode/practice2025/concurrencyExercise/mutexProblems"
-	"leetcode/practice2025/config"
-	integerleetcode "leetcode/practice2025/integerLeetcode"
-	"leetcode/practice2025/samedirection"
-	stringleetcode "leetcode/practice2025/stringLeetcode"
+	config "leetcode/practice2025/config"
+	algomonster "leetcode/practice2025/leetCodeExercise"
+	integerLC "leetcode/practice2025/leetCodeExercise/integerLeetcode"
+	sd "leetcode/practice2025/leetCodeExercise/samedirection"
+	stringLC "leetcode/practice2025/leetCodeExercise/stringLeetcode"
 )
 
 const (
@@ -22,28 +22,28 @@ var root *config.Node
 func main() {
 	fmt.Println("Practice 2025 ")
 
-	//config.PrintLinkedList(linkedList)
+	config.PrintLinkedList(linkedList)
 
 	// fmt.Println("Index :", config.GetNums())
-	// sameDirection()
+	sameDirection()
 
-	// leetcodeInts()
-	// leetcodeStrings()
-	//algoMonsterPractice()
+	leetcodeInts()
+	leetcodeStrings()
+	algoMonsterPractice()
 
-	//concurrencyProblems()
+	concurrencyProblems()
 
 	mutexProblems()
 
 }
 
 func sameDirection() {
-	samedirection.MoveZeroes(config.GetNums())
+	sd.MoveZeroes(config.GetNums())
 
-	resultRD := samedirection.RemoveDuplicates(config.GetNums())
+	resultRD := sd.RemoveDuplicates(config.GetNums())
 	fmt.Println("\nThe number of unique elements in numsRD: ", resultRD)
 
-	val := samedirection.MiddleNode(linkedList)
+	val := sd.MiddleNode(linkedList)
 	fmt.Println("Middle of the list: ", val.Value)
 
 }
@@ -52,11 +52,11 @@ func leetcodeStrings() {
 	fmt.Println("\nString problems from leet Code")
 
 	roman := "LVIII"
-	total := stringleetcode.RomanToInt(roman)
+	total := stringLC.RomanToInt(roman)
 	fmt.Println("\n Convert the roman number into Integer: ", total)
 
 	// strArray := []string{"flower", "flow", "flight"}
-	// commandPrefix := stringleetcode.LongestCommonPrefix(strArray)
+	// commandPrefix := stringLC.LongestCommonPrefix(strArray)
 	// fmt.Println("\n longest common prefix: ", commandPrefix)
 
 }
@@ -64,7 +64,7 @@ func leetcodeStrings() {
 func leetcodeInts() {
 	fmt.Println("\nInteger problems from leet Code")
 
-	x := integerleetcode.GetFinalState(config.GetNumInt(), k, multiplier)
+	x := integerLC.GetFinalState(config.GetNumInt(), k, multiplier)
 	fmt.Println("\n Performs the K operations on the array: ", x)
 }
 

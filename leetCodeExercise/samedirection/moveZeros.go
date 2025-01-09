@@ -1,4 +1,4 @@
-package samedirection
+package leetcode
 
 import "fmt"
 

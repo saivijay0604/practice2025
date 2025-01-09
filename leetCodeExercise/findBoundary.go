@@ -1,4 +1,4 @@
-package algomonster
+package leetcode
 
 import (
 	"fmt"

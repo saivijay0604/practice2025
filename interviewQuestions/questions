@@ -1,0 +1,60 @@
+1> How do you reverse a string in Go?
+Write a function to reverse a given string.
+
+2> How do you find the largest and smallest numbers in an array?
+Implement a function that takes an array of integers and returns the largest and smallest elements.
+
+3> How do you check if a number is prime?
+Write a function to determine if a given number is a prime number.
+
+4> How do you implement a worker pool using Goroutines?
+Write a program demonstrating a worker pool pattern in Go using Goroutines and channels.
+
+5> How do you write a function to check for balanced parentheses?
+Given a string containing (), {}, and [], write a function to check if it is balanced.
+
+6> How do you merge and sort two slices?
+Write a function to merge two slices and return a single sorted slice.
+
+7> How do you create a concurrent safe map in Go?
+Use sync.Map or sync.Mutex to implement a thread-safe map.
+
+8> How do you calculate the Fibonacci sequence using recursion and iteration?
+Write both recursive and iterative versions of a function to compute the Fibonacci sequence.
+
+9> How do you implement a custom error type in Go?
+Create a custom error type and demonstrate how to use it.
+
+10> How do you find duplicates in a slice?
+Write a function that identifies and returns duplicate elements in a given slice.
+
+
+11> How do you implement a binary search in Go?
+Write a function to perform binary search on a sorted array.
+
+12> How do you implement a simple HTTP server in Go?
+Write a program to create an HTTP server that responds with "Hello, World!".
+
+13> How do you implement a stack using slices?
+Write a struct and methods to simulate stack operations (push, pop, and peek).
+
+14> How do you read a file line by line in Go?
+Write a program that reads a file line by line and prints each line to the console.
+
+15> How do you implement rate limiting using channels?
+Write a program to demonstrate rate limiting using time.Tick and channels.
+
+16> How do you find the first non-repeated character in a string?
+Write a function that finds the first non-repeated character in a given string.
+
+17> How do you implement a producer-consumer problem in Go?
+Use Goroutines and channels to implement a producer-consumer pattern.
+
+18> How do you check if a slice is a palindrome?
+Write a function to determine if a given slice is a palindrome.
+
+19> How do you implement dependency injection in Go?
+Write an example of dependency injection using interfaces.
+
+20> How do you count the frequency of characters in a string?
+Write a function that returns the frequency of each character in a string.

@@ -1,4 +1,4 @@
-package algomonster
+package leetcode
 
 import (
 	"leetcode/practice2025/config"
